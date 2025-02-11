@@ -63,7 +63,6 @@ filesInDirectory.forEach(filePath => {
 const remainingFilesInDirectory = fs.readdirSync(absolutePath, (err, files) => {
     console.log("files", files)
 })
-console.log(remainingFilesInDirectory)
 
 remainingFilesInDirectory.forEach(filePath => {
     const stats = fs.statSync(absolutePath + '\\' + filePath)
