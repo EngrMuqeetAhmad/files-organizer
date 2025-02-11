@@ -13,11 +13,14 @@ To run this program clone this directory
 
 **For Linux OS:**
 In Linux kindly Replace all "\\" with "//", all set.
-For Instance 
-...js
-fs.existsSync(absolutePath + `\\${folder}`)
-...
+For Instance:
+
+```js
+  fs.existsSync(absolutePath + `\\${folder}`)
+```
+
 With
-...js
-fs.existsSync(absolutePath + `//${folder}`)
-...
+
+```js
+  fs.existsSync(absolutePath + `//${folder}`)
+```
