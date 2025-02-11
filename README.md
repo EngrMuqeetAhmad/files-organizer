@@ -12,7 +12,7 @@ To run this program clone this directory
 
 
 **For Linux OS:**
-In Linux kindly Replace all "\\" with "//", all set.
+In Linux kindly Replace all "\\\" with "//", all set.
 For Instance:
 
 ```js
